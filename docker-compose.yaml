@@ -3,7 +3,7 @@ version: '3.8'
 services:
   postgres:
     image: postgres:15
-    container_name: postgres_container
+    container_name: postgreSQL
     environment:
       POSTGRES_PASSWORD: $1q2w3e4r
     volumes:
